@@ -11,10 +11,21 @@ draw = function(){
   background(255,255,255);
   
   if(mousePressed){
-    showXYPositions();
+    text("Food", random (0, 600), random(0, 400));
   }
 
   //🎯New Text Code Should Go Here 🡻
+
+textSize(50)
+fill(50, 68, 168)
+text("My Favorite Foods", 110, 40)
+textSize(30)
+fill(158, 50, 168)
+text("-Pasta", 201, 136)
+fill(50, 168, 137)
+text("-Steak", 201, 167)
+fill(168, 50, 121)
+text("-Cheese", 201, 198)
 
 };
 
@@ -33,5 +44,6 @@ showXYPositions = function(){
     ellipse(mouseX, mouseY, 10, 10);
     fill(255,255,255)
 }
+
 
 
